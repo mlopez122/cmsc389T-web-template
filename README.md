@@ -1,6 +1,6 @@
 # Miguel's Personal Website README
 
-## https://mlopez122.github.io/
+### https://mlopez122.github.io/
 
 I modified my personal website to include the required elements, my profile picture
 
