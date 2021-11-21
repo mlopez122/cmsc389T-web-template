@@ -1,5 +1,7 @@
 # Miguel's Personal Website README
 
-I modified my personal website to include the required elements, and my optional element was
+## https://mlopez122.github.io/
 
-to provide a supplemental social media link: LinkedIn
+I modified my personal website to include the required elements, my profile picture
+
+is a peter griffin meme, and my optional element was to provide a supplemental social media link: LinkedIn
