@@ -1,4 +1,4 @@
-# cmsc389T-web-template
+# Miguel's Personal Website README
 
 I modified my personal website to include the required elements, and my optional element was
 
