@@ -16,5 +16,5 @@ jobs:
           script: |
             cd ..
             cd pub/
-            cd mlopez122.github.io
+            mkdir mlopez122.github.io
             git clone https://github.com/mlopez122/mlopez122.github.io.git
