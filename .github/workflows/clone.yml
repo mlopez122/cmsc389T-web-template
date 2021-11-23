@@ -1,9 +1,4 @@
 name: clone workflow
-env:
-  SECRET_HOST: ${{ secrets.HOST }}
-  SECRET_NAME: ${{ secrets.USERNAME }}
-  SECRET_PASS: ${{ secrets.PASSWORD }}
-  SECRET_PORT: ${{ secrets.PORT }}
 on:
   workflow_dispatch:
 jobs:
@@ -14,10 +9,10 @@ jobs:
       - name: testing
         uses: appleboy/ssh-action@master
         with:
-          host: SECRET_HOST
-          username: SECRET_NAME
-          password : SECRET_PASS
-          port: SECRET_PORT
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password : ${{ secrets.PASSWORD }}
+          port: ${{ secrets.SECRET_PORT }}
           script: |
             cd ..
             cd pub/
