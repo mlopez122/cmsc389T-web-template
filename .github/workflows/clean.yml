@@ -1,9 +1,9 @@
-name: clone workflow
+name: Clean workflow
 on:
   workflow_dispatch:
 jobs:
   job_one:
-    name: Clone
+    name: Clean
     runs-on: ubuntu-latest
     steps:
       - name: testing
@@ -11,10 +11,10 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password : ${{ secrets.PASSWORD }}
+          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+            unalias rm
             cd ..
             cd pub/
-            mkdir mlopez122.github.io
-            git clone https://github.com/mlopez122/mlopez122.github.io.git
+            rm -rf mlopez122.github.io
