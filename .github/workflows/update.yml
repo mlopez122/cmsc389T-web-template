@@ -18,4 +18,4 @@ jobs:
             cd ..
             cd pub/
             cd mlopez122.github.io
-            git pull https://github.com/mlopez122/mlopez122.github.io.git
+            git pull
